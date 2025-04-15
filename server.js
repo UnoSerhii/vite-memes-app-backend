@@ -42,7 +42,7 @@ app.patch('/api/memes/:id', async (req, res) => {
     res.json(updatedMem);
 })
 
-seed(Mem)
+// seed(Mem)
 
 app.listen(port, () => {
     console.log(`Сервер запущено на порту ${port}`);
