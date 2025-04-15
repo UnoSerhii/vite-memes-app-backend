@@ -1,8 +1,7 @@
-const express = require('express');
-const cors = require('cors');
-const {v4: uuidv4} = require('uuid');
-const {Sequelize, Model, DataTypes} = require('sequelize');
-const {seed} = require("./dbSeed");
+import express from 'express';
+import cors from 'cors';
+import {Sequelize, Model, DataTypes} from 'sequelize';
+import {seed} from "./dbSeed.js";
 
 const sequelize = new Sequelize({
     dialect: 'sqlite',

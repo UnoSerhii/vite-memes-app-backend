@@ -1,3 +1,5 @@
+import {v4 as uuidv4} from 'uuid';
+
 export const seed = (Mem) => {
     function generateRandomLikes() {
         return Math.floor(Math.random() * 100);
